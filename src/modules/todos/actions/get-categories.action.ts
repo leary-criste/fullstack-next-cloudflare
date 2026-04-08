@@ -19,4 +19,4 @@ export async function getAllCategories(userId: string): Promise<Category[]> {
         console.error("Error fetching categories:", error);
         return [];
     }
-}
+}
