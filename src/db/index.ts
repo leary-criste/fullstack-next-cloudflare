@@ -9,4 +9,4 @@ export async function getDb() {
     return drizzle(env.next_cf_app, { schema });
 }
 
-export * from "./schema";
+export * from "./schema";
