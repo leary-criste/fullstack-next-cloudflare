@@ -72,4 +72,4 @@ export const verification = sqliteTable("verification", {
         .defaultNow()
         .$onUpdate(() => /* @__PURE__ */ new Date())
         .notNull(),
-});
+});
