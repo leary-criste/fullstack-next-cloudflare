@@ -16,4 +16,4 @@ export async function GET(request: Request) {
 export async function POST(request: Request) {
     const { POST: handler } = await createHandler();
     return handler(request);
-}
+}
